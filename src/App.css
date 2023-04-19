@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  margin-top: 10vh;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+/* parte de input */
+input {
+  border-radius: 5px;
+  height: 20px;
+  font-size: 1.5rem;
+  padding: 5px 15px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* tabela */
+.tableDiv {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 50vw;
+  border-spacing: 0 5px;
+  margin-top: 40px;
+}
+thead {
+  background-color: darkred;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.grau {
+  text-align: center;
+}
+
+thead tr td {
+  padding: 7px 14px;
+}
+
+td {
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}
+
+/* botoes */
+button {
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 120px;
+}
+button#reset {
+  border: 2px solid darkred;
+  color: darkred;
+  background-color: white;
+}
+button#reset:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+button#calcula {
+  border: none;
+  background-color: darkred;
+  border: 2px solid darkred;
+  color: white;
+}
+button#calcula:hover {
+  background-color: #9a0000;
+  cursor: pointer;
+}
+
+/* flexcomponent */
+.btnFlex {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.inputFlex {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  justify-content: center;
+}
